@@ -1,0 +1,291 @@
+/* write your CSS here */
+div#main{
+    margin: 0px 0px 0px 0px;
+    background: #FFFFFF;
+}
+
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+IMG.pokeball {
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#header{
+    background: red;
+    padding-top: 40px;
+}
+div#header h1{
+    background: black;
+    color: red;
+    font-family: Trebuchet MS;
+    text-shadow: 2px 2px #FFFFFF;
+    font-size: 50px;
+    margin-right: auto;
+    margin-left:auto;
+    text-align:center;
+}
+
+div.starters{
+    margin: 0px 60px 0px 60px;
+    background: white;
+}
+
+IMG.bulba {
+    width: 285px;
+    float: left;
+    margin-bottom: 0px;
+}
+
+IMG.char {
+    width: 300px;
+    margin-left: 200px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+IMG.squir {
+    width: 300px;
+    float: right;
+}
+
+div.bulba{
+    letter-spacing: 2px;
+    font-family: Helvetica;
+    width:300px;
+    height: 300px;
+    background: green;
+    float: left;
+    margin-left:30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    box-shadow: 10px 10px 5px #888888;
+    opacity: 0.8;
+    border-radius: 80%;
+}
+
+div.char{
+    letter-spacing: 2px;
+    font-family: Helvetica;
+    width:300px;
+    height: 300px;
+    background: orange;
+    float: left;
+    margin-left: 200px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    box-shadow: 10px 10px 5px #888888;
+    opacity: 0.8;
+    border-radius: 80%;
+}
+
+
+div.squir{
+    letter-spacing: 2px;
+    font-family: Helvetica;
+    width:300px;
+    height: 300px;
+    background: #40E0D0;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    box-shadow: 10px 10px 5px #888888;
+    opacity: 0.8;
+    border-radius: 80%;
+}
+
+
+
+
+/* ------v~~~.FORM.~~~v------- */
+form.white-pink {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:400px;
+    height:70px;
+    max-width: 500px;
+    background: #FFF;
+    padding: 30px 30px 20px 30px;
+    box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+    -webkit-box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+form.white-pink h1>span {
+    display: block;
+    font-size: 11px;
+    color: #C4C2C2;
+}
+form.white-pink label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+form.white-pink label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #969696;
+}
+form.white-pink input[type="text"], .white-pink input[type="email"], .white-pink textarea,.white-pink select{
+    color: #555;
+    width: 70%;
+    padding: 3px 0px 3px 5px;
+    margin-top: 2px;
+    margin-right: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #e5e5e5;
+    background: #fbfbfb;
+    height: 25px;
+    line-height:15px;
+    outline: 0;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
+    box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
+}
+form.white-pink textarea{
+    height:100px;
+    padding: 5px 0px 0px 5px;
+    width: 70%;
+}
+form.white-pink .button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+    box-shadow:inset 0px 1px 0px 0px #fbafe3;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d) );
+    background:-moz-linear-gradient( center top, #ff5bb0 5%, #ef027d 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bb0', endColorstr='#ef027d');
+    background-color:#ff5bb0;
+    border-radius:9px;
+    -webkit-border-radius:9px;
+    -moz-border-border-radius:9px;
+    border:1px solid #ee1eb5;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height: 40px;
+    line-height: 30px;
+    width:100px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #c70067;
+}
+form.white-pink .button:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ef027d), color-stop(1, #ff5bb0) );
+    background:-moz-linear-gradient( center top, #ef027d 5%, #ff5bb0 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef027d', endColorstr='#ff5bb0');
+    background-color:#ef027d;
+}
+form.white-pink .button:active {
+    position:relative;
+    top:1px;
+}
+
+/* ------v~~~.FORM.~~~v------- */
+
+.OakContainer{
+    width: auto;
+    height: 200px;
+}
+
+.gif {
+    margin-top: 20px;
+    margin-left: 400px;
+    width: 500px;
+    height: 350px;
+    margin-bottom: 60px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    background: url(http://25.media.tumblr.com/tumblr_m13pq4S1rb1qd8t4mo1_500.gif) no-repeat;
+
+}
+
+div.OakContainer img#Oak2{
+    float:left;
+}
+
+div.OakContainer img#Oak1{
+    float:right;
+}
+
+
+div.footerborder{
+    height:30px;
+    margin-top:50px;
+    background:gray;
+    box-shadow: 10px 10px 5px #888888;
+    opacity: 0.4;
+}
+
+div.footer {
+    height:140px;
+    background: pink;
+    padding: 20px 50px 20px 50px;
+    width:auto;
+}
+
+
+
+div.palletown{
+    width: 800px;
+}
+
+div.pallettown img#town{
+    width: 150px;
+    border-radius: 50%;
+    float:right;
+    margin-right: 250px;
+}
+
+div.pallettown img#good{
+    width: 250px;
+    height: 120px;
+    float:right;
+    margin-right: 20px;
+}
+
+div.pallettown h1{
+    font-family: Helvetica;
+    letter-spacing: 20px;
+    color: white;
+    font-variant: small-caps;
+    width: 200px;
+    float:left;
+}
+
+div.pallettown p#left{
+    width: 300px;
+    font-family: Helvetica;
+    color: gray;
+    text-align: justify;
+    float:left;
+}

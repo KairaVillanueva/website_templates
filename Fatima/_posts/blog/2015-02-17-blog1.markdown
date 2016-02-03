@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Overview of Jekyll"
+date:   2015-02-16 09:37:25
+category: blog
+---
+
+Go into the `_posts` directory and follow this format `YYYY-MM-DD-name-of-post.\
+ext` to create a post, which will includes the front matter.
+
+
+
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of\
+ Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. I\
+f you have questions, you can ask them on [Jekyll’s dedicated Help repository][\
+jekyll-help].

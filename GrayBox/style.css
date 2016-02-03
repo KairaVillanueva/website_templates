@@ -1,0 +1,217 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+@font-face {
+    font-family: NEOTERIC-REG;
+    src: url(NEOTERIC-REG.ttf);
+}
+
+@font-face {
+    font-family: NEOTERIC-BOLD;
+    src: url(NEOTERIC-BOLD.ttf);
+}
+
+
+#main {
+	background: url(HeaderImage.jpg);
+	background-size: 100% 100%;
+	width: auto;
+	height: 600px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    position: relative;
+}
+
+#header-text h1 {
+	font-family: 'NEOTERIC-REG';
+	font-size: 72px;
+	color:black;
+	width: 400px;
+	top: 80px;
+	position:relative;
+	z-index: 2;
+	left: 50px;
+	text-shadow: 3px 3px #3D3D4C;
+}
+
+#header-text h3 {
+	font-family: 'NEOTERIC-REG';
+	font-size: 20px;
+	color:black;
+	width: 400px;
+	top: 80px;
+	position:relative;
+	z-index: 2;
+	left: 50px;
+}
+
+#header-text img {
+	font-family: 'NEOTERIC-REG';
+	font-size: 72px;
+	color:black;
+	width: 160px;
+	position:relative;
+	z-index: 2;
+	top:90px;
+	left: 50px;
+	text-shadow: 3px 3px #3D3D4C;
+}
+
+.cycle-slideshow {
+	position:relative;
+	top: -180px;
+	width: 750px;
+	height: 500px;
+	left: 350px;
+	overflow: hidden;
+	border-radius: 5%;
+}
+
+
+.center {
+	position:relative;
+	top: -160px;
+	left: 640px;
+	height:50px;
+	width: 200px;
+}
+
+#left {
+   background-image: url('arrow-left.png');
+   height: 50px;
+   width: 50px;
+   background-repeat: no-repeat;
+   position: relative;
+}
+
+#left:hover {
+   background-image: url('hover-left.png');
+   height: 50px;
+   width: 50px;
+   background-repeat: no-repeat;
+   position: relative;
+}
+
+#right {
+   background-image: url('arrow-right.png');
+   height: 50px;
+   width: 50px;
+   background-repeat: no-repeat;
+   position: relative;
+   left: 80px;
+   top: -50px;
+}
+
+#right:hover {
+   background-image: url('hover-right.png');
+   height: 50px;
+   width: 50px;
+   background-repeat: no-repeat;
+   position: relative;
+   left: 80px;
+   top: -50px;
+}
+
+
+#footer {
+	background: #000000;
+	height: 120px;
+	position:relative;
+	top: -160px;
+}
+
+
+.buttons {
+	position: relative;
+	width: 200px;
+	height: 100px;
+	left: 50px;
+	top: 20px;
+
+}
+#twitter {
+   background-image: url('twitter.png');
+   height: 50px;
+   width: 50px;
+   background-repeat: no-repeat;
+   position: relative;
+}
+
+#twitter:hover {
+   background-image: url('twitter-hover.png');
+   height: 50px;
+   width: 50px;
+   background-repeat: no-repeat;
+   position: relative;
+}
+
+#linkedin {
+   background-image: url('linkedin.png');
+   height: 50px;
+   width: 50px;
+   background-repeat: no-repeat;
+   position: relative;
+   left: 80px;
+   top: -50px;
+}
+
+
+
+#footer-text {
+	font-family: 'NEOTERIC-BOLD';
+	font-size: 24px;
+	color:white;
+	width: 400px;
+	position:relative;
+	top: -40px;
+	left: 800px;
+	letter-spacing: 3px;
+	text-shadow: 3px 3px #3D3D4C;
+}
+

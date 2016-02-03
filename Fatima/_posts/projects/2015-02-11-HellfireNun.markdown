@@ -1,0 +1,73 @@
+---
+layout: default
+title:  "Hellfire Nun"
+date:   2015-02-16 09:37:25
+desc: A SHMUP available for Windows Mobile
+category: games
+---
+
+<style>
+
+#images {
+  width: 700px;
+  height: 450px;
+  border-radius:5%;
+  overflow: hidden;
+  position: relative;
+  
+  margin: 20px auto;
+}
+#images img {
+  width: 700px;
+  height: 450px;
+  border-radius: 5%;
+  
+  position: absolute;
+  top: 0;
+  left: -400px;
+  z-index: 1;
+  opacity: 0;
+  
+  transition: all linear 500ms;
+  -o-transition: all linear 500ms;
+  -moz-transition: all linear 500ms;
+  -webkit-transition: all linear 500ms;
+}
+#images img:target {
+  left: 0;
+  z-index: 9;
+  opacity: 1;
+}
+#images img:first-child {
+  left: 0;
+  opacity: 1;
+}
+#slider a {
+  text-decoration: none;
+  background: #E3F1FA;
+  border: 1px solid #C6E4F2;
+  padding: 4px 6px;
+  color: #222;
+}
+#slider a:hover {
+  background: #C6E4F2;
+}
+
+.slidy{
+	text-align: center;
+}
+</style>
+
+
+<div id="images">
+  <img id="image1" src="/assets/HellfireNun/1.png" />
+  <img id="image2" src="/assets/HellfireNun/2.jpg" />
+  <img id="image3" src="/assets/HellfireNun/3.png" />
+  <img id="image4" src="/assets/HellfireNun/4.png" />
+</div>
+<div class="slidy" id="slider">
+  <a href="#image1">1</a>
+  <a href="#image2">2</a>
+  <a href="#image3">3</a>
+  <a href="#image4">4</a>
+</div>

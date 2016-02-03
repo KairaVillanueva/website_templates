@@ -1,0 +1,136 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+
+
+@font-face {
+    font-family: YellowSun;
+    src: url(font/YellowSun.otf);
+}
+
+@font-face {
+    font-family: kontuto;
+    src: url(font/kontuto.ttf);
+}
+
+@font-face {
+    font-family: handwriting;
+    src: url(font/handwriting.ttf);
+}
+
+body {
+	background: url(asset/wallpaper.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+.box-info {
+	width: 340px;
+	height: 390px;
+	background: white;
+	padding: 10px 10px 10px 30px;
+	float:left;
+	margin-top: 20px;
+	opacity: 0.85;
+	border-radius: 3%;
+	position: relative;
+}
+
+#header h1{
+	font-family: YellowSun;
+	font-size:50px;
+	color: #0f1c22;
+	letter-spacing: 10px;
+	margin-top:10px;
+
+}
+
+#header2 {
+	position: absolute;
+	top: 20%;
+	right:0;
+	background:#d7f4bc;
+	height: 50px;
+	width: 350px;
+	border-radius: 2px 0px 2px 5px;
+	padding-left: 2px;
+}
+
+#header2 h2 {
+	font-size:18px;
+	margin-top:10px;
+	vertical-align: middle;
+	font-family: handwriting;
+}
+
+#text-content {
+	font-family: kontuto;
+	color: #0f1c22;
+}
+
+#text-content a{
+	text-decoration: none;
+	color: #72a4d5;
+}
+
+#twitter {
+	float: left;
+	margin-right: 10px;
+}
+
+#instagram {
+	float: left;
+	margin-right: 10px;
+}
+
+#facebook{
+	float:left;
+	margin-right: 10px;
+}

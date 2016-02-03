@@ -1,0 +1,17 @@
+# Site settings
+title: F A T I M A
+email: fzf.villanueva@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Fatima who also goes by Kaira is constantly exploring the boundaries of video games. 
+  You can contact her via email or twitter, and 
+  she will timely reply. She also made this website.
+baseurl: 
+localhost: 4000
+url: "http://zovfreullia.github.io" # the base hostname & protocol for your site
+twitter_username: zovfreullia
+github_username:  zovfreullia
+tumblr_username: zovfreullia
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
