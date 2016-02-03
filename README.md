@@ -1,6 +1,6 @@
 # Website Templates
 
-![shields.io](https://img.shields.io/badge/mit-license-brightgreen.svg)
+![shields.io](https://img.shields.io/cocoapods/l/AFNetworking.svg)
 
 
 * Fatima - A jekyll website under construction
