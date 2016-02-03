@@ -1,0 +1,189 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+@import url(http://fonts.googleapis.com/css?family=Fredoka+One);
+
+h1{
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  margin: 20px;
+  font-size: 80px;
+  color: SeaGreen;
+  position: relative;
+  z-index: 100;
+}
+
+#two{
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  margin: 20px;
+  top: -7px;
+  left: 385px;
+  font-size: 80px;
+  color: SkyBlue;
+  position: absolute;
+  z-index: 102;
+}
+
+#container{
+	position: relative;
+	height: 500px;
+	width: 600px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#poptart{
+	position: absolute;
+	z-index: 1;
+}
+
+#click{
+	width: 200px;
+	height: 50px;
+	background: pink;
+	margin-left: 100px;
+	margin-top: 150px;
+	z-index: 2;
+	position: absolute;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	font-family: Helvetica;
+	border-radius: 5%;
+}
+
+
+#modal {
+   width: 200px;
+   height: 150px;
+   right: 0px;
+   top: 30px;
+   background: white;
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+   position: absolute;
+   z-index: 2;
+   display: none;
+   border: 5px solid Aquamarine;
+}
+#modal:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid white;
+   border-bottom: 13px solid transparent;
+
+}
+
+#form {
+   text-align: center;
+   font-family: Helvetica;
+   font-size: 15px;
+     position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#submit{     
+   position: absolute;
+  top: 80%;
+  left: 40%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#exit{
+	width: 30px;
+	height: 30px;
+	background-color: LightSeaGreen;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 5;
+	right: 0px;
+	top: 0px;
+	color: white;
+	font-size: 10px;
+	font-family: Helvetica;
+	text-align: center;
+	z-index: 10;
+}
+
+body {
+	background-color: PaleGreen;
+}
+
+#blue {
+  z-index: 49;
+  width: 100%;
+  height: 90px;
+  bottom: -50px;
+  position: absolute;
+  opacity: 0.8;
+  background-color: MediumPurple;
+}
+
+#footer {
+  z-index: 50;
+  width: 100%;
+  height: 70px;
+  bottom: -50px;
+  position: absolute;
+  opacity: 0.8;
+  background: url('http://s3.amazonaws.com/spoonflower/public/design_thumbnails/0059/3547/rrrsprinkles_v2_shop_preview.png') repeat;
+}
