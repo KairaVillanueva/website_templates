@@ -1,0 +1,13 @@
+# Site settings
+title: W O N D E R B R O O M # capitalize to achieve the title look
+description: Enter your site description here.
+baseurl: 
+localhost: 4000
+url: "" # the base hostname & protocol for your site
+twitter_username: twitter_name
+github_username:  github_name
+tumblr_username: tumblr_name
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
