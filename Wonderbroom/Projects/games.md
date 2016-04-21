@@ -4,7 +4,6 @@ title: Games
 permalink: /games/
 ---
 
-
   <ul class="post-list">
     {% for post in site.categories.games %}
       <li>

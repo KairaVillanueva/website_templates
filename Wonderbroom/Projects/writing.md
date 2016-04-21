@@ -4,18 +4,6 @@ title: Writing
 permalink: /writing/
 ---
 
-<style>
-
-.post-list{
-  margin-right: 100px;
-  font-size: 18px;
-}
-
-
-
-
-</style>
-
   <ul class="post-list">
   <h3>The Mary Sue</h3>
       <li>
