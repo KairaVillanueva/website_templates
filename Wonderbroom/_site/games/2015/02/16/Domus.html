@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Domus</title>
-  <meta name="description" content="">
+  <meta name="description" content="        1  2  3">
 
   <!-- main stylesheet css -->
   <link rel="stylesheet" href="/css/main.css">
@@ -22,6 +22,17 @@
 
   <!-- font google css -->
   <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+
+  <!-- jQuery js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  
+  <!-- masonry script -->
+  <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.js"></script>
+
+  <!-- script js -->
+  <script src= "/js/script.js"></script>
+
+
 
 </head>
 
@@ -52,59 +63,7 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <style>
-
-#images {
-  width: 700px;
-  height: 450px;
-  border-radius:5%;
-  overflow: hidden;
-  position: relative;
-  
-  margin: 20px auto;
-}
-#images img {
-  width: 700px;
-  height: 450px;
-  border-radius: 5%;
-  
-  position: absolute;
-  top: 0;
-  left: -400px;
-  z-index: 1;
-  opacity: 0;
-  
-  transition: all linear 500ms;
-  -o-transition: all linear 500ms;
-  -moz-transition: all linear 500ms;
-  -webkit-transition: all linear 500ms;
-}
-#images img:target {
-  left: 0;
-  z-index: 9;
-  opacity: 1;
-}
-#images img:first-child {
-  left: 0;
-  opacity: 1;
-}
-#slider a {
-  text-decoration: none;
-  background: #E3F1FA;
-  border: 1px solid #C6E4F2;
-  padding: 4px 6px;
-  color: #222;
-}
-#slider a:hover {
-  background: #C6E4F2;
-}
-
-.slidy{
-	text-align: center;
-}
-</style>
-
-<div id="images">
+        <div id="images">
   <img id="image1" src="/assets/Domus/1.png" />
   <img id="image2" src="/assets/Domus/2.png" />
   <img id="image3" src="/assets/Domus/3.png" />

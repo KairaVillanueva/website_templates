@@ -2,6 +2,13 @@
   font-family: 'Arual';
   src: url("assets/Arual.woff") format("woff"), url("assets/Arual.ttf") format("truetype"); }
 
+/**
+ * Masonry - projects layout
+ */
+.grid-item {
+  float: left;
+  padding: 0.1em;
+}
 
 /**
  * Projects -> writing
