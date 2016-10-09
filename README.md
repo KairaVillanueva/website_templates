@@ -2,12 +2,12 @@
 
 ![shields.io](https://img.shields.io/cocoapods/l/AFNetworking.svg)
 
+This is a website [b]dump[/b/] and below are some of the projects I've created to practice a certain skill set. Most, if not all are designed as a single-webpage or landing page.
 
-* Fatima - A jekyll website under construction
-* Graybox - Slideshow focused portfolio
-* Heart - A soft landing page
-* Kaira	- Simple one-page about me
+* Carrie - Single webpage biography
+* Graybox - Porfolio image silder
+* Heart - Random landing page
 * ProfessorOak - Business oriented template
-* poptart - It's literally a poptart with pop-up view
+* Wonderbroom	- Skeletal Jekyll template
+* poptart - Example of pop-up view
 
-These are all free, so please feel free to use, dissect, comment, fork, or do whatever you want with it. 
