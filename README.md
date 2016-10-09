@@ -1,6 +1,7 @@
 # Website Templates
 
-![shields.io](https://img.shields.io/cocoapods/l/AFNetworking.svg)
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/mit-license-brightgreen.svg" alt="mit license"></a>
+
 
 #### This is a website <b>dump</b> and below are some of the projects I've created to practice a certain skill set. Most, if not all are designed as a single-webpage or landing page.
 
